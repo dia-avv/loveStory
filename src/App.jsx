@@ -109,7 +109,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    const audioFile = new Audio("./public/bfgf.mp3");
+    const audioFile = new Audio("/bfgf.mp3");
     setAudio(audioFile);
 
     return () => {
