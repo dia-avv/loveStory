@@ -95,7 +95,7 @@ export default function App() {
 
   useEffect(() => {
     if (currentSection === 7 && audio) {
-      audio.play();
+      audio.play().catch(error => console.error("Error playing audio:", error));
     } else if (audio && currentSection !== 7 && currentSection !== 8 && currentSection !== 9) {
       audio.pause();
       audio.currentTime = 0;
@@ -110,11 +110,21 @@ export default function App() {
 
   useEffect(() => {
     const audioFile = new Audio("/bfgf.mp3");
-    setAudio(audioFile);
+    audioFile.preload = "auto"; // Preload the audio file
+
+    audioFile.addEventListener('canplaythrough', () => {
+      setAudio(audioFile);
+    });
+
+    audioFile.addEventListener('error', (e) => {
+      console.error("Error loading audio file:", e);
+    });
 
     return () => {
       audioFile.pause();
       audioFile.currentTime = 0;
+      audioFile.removeEventListener('canplaythrough', () => {});
+      audioFile.removeEventListener('error', () => {});
     };
   }, []);
 
