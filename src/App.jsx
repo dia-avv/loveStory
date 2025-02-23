@@ -87,7 +87,7 @@ const storyData = [
   },
   {
     id: 100,
-    text: "Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! \nȘi în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. \nȘi vreau să pot spune asta până când o-i avea 100 de ani și nu mai am voce și putere să spun nimic! \n\nLa mulți ani de Dragobete! ❤️ \n\nTe iubesc! \n\nSemnat, \npupicuța",
+    text: "Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! \nȘi în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. \nȘi vreau să pot spune asta până când voi avea 100 de ani și nu mai am voce și putere să spun nimic! \n\nLa mulți ani de Dragobete! ❤️ \n\nTe iubesc! \n\nSemnat, \npupicuța",
     options: [
       { text: "Restart Story", nextId: 1 }
     ]
