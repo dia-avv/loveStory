@@ -59,7 +59,7 @@ This is the start of something beautiful!`,options:[{text:"End of THIS story ❤
 The train arrives, and as you both step on, you realize this was the day everything changed... for the better.`,options:[{text:"End of THIS story ❤️... but it was only getting started! (CLICK)",nextId:100}]},{id:99,text:`You decide to go alone and just text her, but deep down, you feel like something is missing. 
 Maybe things would have turned out differently if you had invited her… (Try again!)`,options:[{text:"Restart Story",nextId:1}]},{id:100,text:`Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! 
 Și în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. 
-Și vreau să pot spune asta până când o-i avea 100 de ani și nu mai am voce și putere să spun nimic! 
+Și vreau să pot spune asta până când voi avea 100 de ani și nu mai am voce și putere să spun nimic! 
 
 La mulți ani de Dragobete! ❤️ 
 
