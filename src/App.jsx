@@ -68,14 +68,14 @@ const storyData = [
     id: 9,
     text: "You don’t kiss her back immediately, and she seems a little unsure. But after two minutes, you gather your courage and kiss her back, making it official. This is the start of something beautiful.",
     options: [
-      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 1 },
+      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 100 },
     ],
   },
   {
     id: 10,
     text: "You finally kiss her back, making the moment perfect. The train arrives, and as you both step on, you realize this was the day everything changed... for the better.",
     options: [
-      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 1 },
+      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 100 },
     ],
   },
   {
@@ -85,6 +85,13 @@ const storyData = [
       { text: "Restart Story", nextId: 1 },
     ],
   },
+  {
+    id: 100,
+    text: "Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! Și în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. Și vreau să pot spune asta până când o-i avea 100 de ani și nu mai am voce și putere să spun nimic! \n La mulți ani de Dragobete! ❤️ \n Te iubesc! \n Semnat, \n pupicuța",
+    options: [
+      { text: "Restart Story", nextId: 1 }
+    ]
+  }
 ];
 
 export default function App() {
