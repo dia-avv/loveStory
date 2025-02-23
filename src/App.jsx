@@ -66,16 +66,16 @@ const storyData = [
   },
   {
     id: 9,
-    text: "You don’t kiss her back immediately, and she seems a little unsure. But after two minutes, you gather your courage and kiss her back, making it official. \nThis is the start of something beautiful.",
+    text: "You don’t kiss her back immediately, and she seems a little unsure. But after two minutes, you gather your courage and kiss her back, making it official. \nThis is the start of something beautiful!",
     options: [
-      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 100 },
+      { text: "End of THIS story ❤️... but it was only getting started! (CLICK)", nextId: 100 },
     ],
   },
   {
     id: 10,
     text: "You finally kiss her back, making the moment perfect. \nThe train arrives, and as you both step on, you realize this was the day everything changed... for the better.",
     options: [
-      { text: "End of THIS story ❤️... but it was only getting started!", nextId: 100 },
+      { text: "End of THIS story ❤️... but it was only getting started! (CLICK)", nextId: 100 },
     ],
   },
   {
