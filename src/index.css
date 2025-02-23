@@ -32,6 +32,7 @@ h1 {
 p {
   max-width: 600px;
   white-space: pre-line;
+  text-align: left;
 }
 
 button {
