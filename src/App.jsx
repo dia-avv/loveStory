@@ -87,7 +87,7 @@ const storyData = [
   },
   {
     id: 100,
-    text: "Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! Și în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. Și vreau să pot spune asta până când o-i avea 100 de ani și nu mai am voce și putere să spun nimic! \n\n La mulți ani de Dragobete! ❤️ \n\n Te iubesc! \n\n Semnat, \n pupicuța",
+    text: "Singura diferență dintre ziua din poveste și astăzi este că te iubesc de 1000000000000000000 de ori mai mult! Și în fiecare zi această iubire se mărește. În fiecare zi mă bucur de viața pe care o am alături de tine. În fiecare zi prezența ta mă face fericită. În fiecare zi mă faci să mă simt iubită. Și vreau să pot spune asta până când o-i avea 100 de ani și nu mai am voce și putere să spun nimic! \n\nLa mulți ani de Dragobete! ❤️ \n\nTe iubesc! \n\nSemnat, \n\npupicuța",
     options: [
       { text: "Restart Story", nextId: 1 }
     ]
@@ -139,14 +139,7 @@ export default function App() {
     <div className="app">
       <h1>Our Love Story ❤️</h1>
       <div className="story">
-      <p>
-        {currentStory.text.split("\n").map((line, index) => (
-          <React.Fragment key={index}>
-            {line}
-            <br />
-          </React.Fragment>
-        ))}
-      </p>
+        <p>{currentStory.text}</p>
         <div className="options">
           {currentStory.options.map((option, index) => (
             <button key={index} onClick={() => handleChoice(option.nextId)}>
