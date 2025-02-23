@@ -103,7 +103,7 @@ export default function App() {
   useEffect(() => {
     if (currentSection === 7 && audio) {
       audio.play().catch(error => console.error("Error playing audio:", error));
-    } else if (audio && currentSection !== 7 && currentSection !== 8 && currentSection !== 9) {
+    } else if (audio && currentSection !== 7 && currentSection !== 8 && currentSection !== 9 && currentSection !== 100) {
       audio.pause();
       audio.currentTime = 0;
     }
@@ -139,7 +139,14 @@ export default function App() {
     <div className="app">
       <h1>Our Love Story ❤️</h1>
       <div className="story">
-        <p>{currentStory.text}</p>
+      <p>
+        {currentStory.text.split("\n").map((line, index) => (
+          <React.Fragment key={index}>
+            {line}
+            <br />
+          </React.Fragment>
+        ))}
+      </p>
         <div className="options">
           {currentStory.options.map((option, index) => (
             <button key={index} onClick={() => handleChoice(option.nextId)}>
