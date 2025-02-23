@@ -109,7 +109,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    const audioFile = new Audio(process.env.PUBLIC_URL + "/bfgf.mp3");
+    const audioFile = new Audio(`${process.env.PUBLIC_URL}/bfgf.mp3`);
     audioFile.preload = "auto"; // Preload the audio file
 
     audioFile.addEventListener('canplaythrough', () => {
